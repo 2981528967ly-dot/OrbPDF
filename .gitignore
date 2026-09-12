@@ -1,0 +1,29 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# build outputs (the exe goes to GitHub Releases, not into the repo)
+dist/
+build/work/
+build/debug/
+*.spec.bak
+
+# generated test files
+tests/out/
+tests/out_ui/
+tests/samples/
+*.orbpdf-tmp.pdf
+*.part.pdf
+*.part.docx
+
+# original game artwork used to derive the mascot (copyrighted; not redistributed)
+scripts/
+
+# editors / OS / tools
+.idea/
+.vscode/
+Thumbs.db
+desktop.ini
+*.log
